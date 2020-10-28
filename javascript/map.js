@@ -1,6 +1,6 @@
 function map(array, transform) {
    
-    //Create an empty array - result
+    //Create an empty array called result
     let result = [];
     //Iterate and for each i, get the transformed = transform(i)
     for (let val of array) {
