@@ -1,3 +1,4 @@
+//Localstorage hook
 export function readFromStorage(key) {
     if (typeof window.localStorage !== 'undefined') {
         console.log(`Reading ${key} from local storage`);
