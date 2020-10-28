@@ -1,6 +1,7 @@
-import React, { useReducer, useEffect } from 'react';
+import React, { useReducer, } from 'react';
 
 import { useLocalStorageState } from './useLocalStorageState';
+// custom hook
 
 const SET_PLAYER_X_ACTION_TYPE = 'SET_PLAYER_X';
 const SET_PLAYER_Y_ACTION_TYPE = 'SET_PLAYER_Y';
